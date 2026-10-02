@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql:8
+    container_name: orbit-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: orbit
+    ports:
+      - "3306:3306"
+    
