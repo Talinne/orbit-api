@@ -12,4 +12,4 @@ router.get('/:id', show)
 router.put('/:id', update)
 router.delete('/:id', remove)
 
-export default router
+export default router   
