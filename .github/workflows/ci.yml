@@ -49,4 +49,4 @@ jobs:
           DATABASE_URL: mysql://root:root@localhost:3307/orbit_test
 
       - name: Rodar testes
-        run: npm test
+        run: npm test -- --forceExit
